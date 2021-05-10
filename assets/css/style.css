@@ -1,0 +1,62 @@
+
+
+.bunner {
+    background-image: url(/assets/img/egoist.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+}
+
+
+.categories {
+    display: grid;
+    
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    padding: 0;
+}
+.shoes {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background-image: url(/assets/img/shoes.jpg);
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 120px;
+
+}
+.watches {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background-image: url(/assets/img/watch4.png);
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 120px;
+}
+.bags {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background-image: url(/assets/img/bag3.jpg);
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 120px;
+}
+.items {
+    padding-bottom: 15px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 2;
+    gap: 15px;
+} 
+.item {
+    background-color: aqua;
+    /*max-width:100%;
+    height:auto;*/
+}
